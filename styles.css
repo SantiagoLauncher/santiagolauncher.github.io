@@ -3,6 +3,10 @@
     src: url('fonts/font.ttf') format('truetype');
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .minecraft-font {
     font-family: 'MinecraftCustom', sans-serif;
 }
@@ -126,4 +130,5 @@ body::-webkit-scrollbar {
     max-width: 100%;
     height: auto;
     pointer-events: none;
+
 }

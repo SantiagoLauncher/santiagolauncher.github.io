@@ -1,9 +1,9 @@
-const btnDownload = document.querySelector('.btn-pixel:nth-of-type(1)');
-const btnTrailer = document.querySelector('.btn-pixel:nth-of-type(2)');
+const buttons = document.querySelectorAll('.btn-pixel');
 
-const btnWin = document.querySelectorAll('.btn-pixel')[2];
-const btnMac = document.querySelectorAll('.btn-pixel')[3];
-const btnLinux = document.querySelectorAll('.btn-pixel')[4];
+const btnDownload = buttons[0];
+const btnWin = buttons[1];
+const btnMac = buttons[2];
+const btnLinux = buttons[3];
 
 btnDownload.addEventListener('click', () => {
   window.location.href = '#get';
@@ -90,3 +90,4 @@ btnLinux.addEventListener('click', () => {
     }
   });
 })();
+

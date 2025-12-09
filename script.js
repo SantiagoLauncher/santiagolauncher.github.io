@@ -9,10 +9,6 @@ btnDownload.addEventListener('click', () => {
   window.location.href = '#get';
 });
 
-btnTrailer.addEventListener('click', () => {
-  window.open('https://www.youtube.com/watch?v=8b1g0d4k2aE', '_blank');
-});
-
 btnWin.addEventListener('click', () => {
   window.open('https://github.com/SantiagoLauncher/SLauncher/releases/download/1.0/SLauncher1.0.zip', '_blank');
 });
@@ -39,4 +35,5 @@ btnLinux.addEventListener('click', () => {
         alert("You linkin't ;)");
       }
     }
+
 });
